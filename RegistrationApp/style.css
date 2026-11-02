@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaf2f8;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.container {
+    max-width: 650px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px #bbb;
+}
+
+h1 {
+    text-align: center;
+    color: #176b87;
+}
+
+h2 {
+    color: #176b87;
+    border-bottom: 2px solid #64ccc5;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+p {
+    text-align: center;
+    color: #555;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input:not([type="checkbox"]),
+select,
+textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.checkbox-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.checkbox-row input {
+    margin-top: 18px;
+}
+
+.checkbox-row label {
+    font-weight: normal;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #176b87;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #053b50;
+}
+
+.reset-button {
+    background-color: #666;
+}
+
+.reset-button:hover {
+    background-color: #444;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 18px;
+    }
+}
